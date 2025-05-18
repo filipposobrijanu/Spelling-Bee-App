@@ -1,0 +1,567 @@
+@media only screen and (min-width: 375px){
+    @font-face {
+        font-family: Main;
+        src: url(../fonts/geekabyte2.ttf);
+    }
+    @font-face {
+        font-family: Main2;
+        src: url(../fonts/Poppins-Regular.ttf);
+    }
+    html{
+
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+    *{
+
+        font-family: Main;
+        margin: 0;
+        
+    }
+   
+    body{
+
+        scroll-behavior: smooth;
+        background-color: rgb(250, 250, 250);
+        animation: fadeInAnimation ease 2.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        overflow-x: hidden;
+        
+
+    }
+    @keyframes fadeInAnimation {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+    .top_header{
+
+        letter-spacing: 0.1em;
+        text-align: center;
+        margin-top: 0.25em;
+        font-size: 2em;
+
+    }
+    .top_logo{
+
+        width: 4em;
+        margin-top: 2em;
+        transition: filter ease 0.12s;
+
+    }
+    .top_logo:hover{
+
+        filter: opacity(60%);
+
+    }
+
+    .centerdiv{
+        display: flex;
+        justify-content: center;
+    }
+    .blurclass{
+        filter: blur(0.2em);
+    }
+    .datep{
+        display: none;
+        font-family: Main2;
+        margin-top: 0.25em;
+        text-align: center;
+        font-size: 1.25em;
+        margin-bottom: 1em;
+
+    }
+    .hrline{
+        display: none;
+        border: none;
+        background-color: rgb(167, 167, 167);
+        height: 0.075em;
+    }
+    .inputtype{
+
+        border: none;
+        caret-color: rgb(255, 208, 0);
+        font-size: 1.75em;
+        background-color: transparent;
+        font-family: Main2;
+        text-align: center;
+
+        
+    }
+    .inputtype::placeholder{
+
+        color: rgb(167, 167, 167);
+    }
+    input:focus{
+        outline: none;
+    }
+    .maincon{
+
+        justify-content: center;
+        display: none;
+        margin-top: 0em;
+        grid-template-columns: 85%;
+        gap: 10em;
+        margin-bottom: 4em;
+    }
+    .madeby{
+
+        font-family: Main2;
+        text-align: center;
+        margin-top: 2em;
+        margin-bottom: 1.5em;
+    }
+    .socials{
+
+        margin-bottom: 3em;
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+    }
+    .soclogo{
+
+        width: 1.25em;
+        transition: filter 0.1s ease-in,scale 0.15s ease;
+        filter: brightness(10%);
+    }
+    .soclogo:hover{
+
+        scale: 1.4;
+        filter: brightness(40%);
+    }
+    .soclogo:active{
+
+        scale: 0.9;
+
+    }
+    .rightcon{
+
+        border: solid 0.1em rgb(167, 167, 167);
+        border-radius: 1em;
+        padding: 3em;
+        height: 25em;
+        max-width: 30em;
+    }
+    .rightconp{
+
+        font-family: Main2;
+        text-align: center;
+        font-size: 1.25em;
+
+
+    }
+    .rightconp2{
+
+        font-family: Main2;
+        text-align: center;
+        font-size: 1.25em;
+
+
+    }
+    #rightconp2{
+
+        margin-bottom: 2em;
+        font-size: 1.5em;
+
+    }
+    #rightconp1{
+
+        margin-bottom: 2em;
+        font-size: 1.5em;
+
+    }
+    .rightconp1{
+
+        font-family: Main2;
+        text-align: center;
+        font-size: 1.1em;
+        position:sticky;
+        color: rgb(167, 167, 167);
+        top: 85%;
+    }
+    .wordsfoundp{
+
+        font-family: Main2;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.1em;
+
+
+    }
+    .hexcon{
+
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 17%17%17%;
+    }
+    .hex{
+        height: 5.5em;
+        width: 5.5em;
+        background: black;
+        color: white;
+        -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+        clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+        -webkit-user-select: none;
+        -ms-user-select: none; 
+        user-select: none; 
+    }
+    .insideofhex{
+
+        display: flex;
+        justify-content: center;
+        transform: translate(0,20%);
+        font-size: 2.25em;
+    }
+    .hex:nth-child(even){
+
+        background: rgb(255, 208, 0);
+        color: black;
+
+    }
+    .leftcon{
+        margin-top: 1em;
+        display:grid;
+        justify-content: center;
+        grid-template-rows: 40%;
+    }
+    ::selection{
+        background-color: rgb(255, 208, 0);
+        color: white;
+    }
+    .startingscreen{
+
+        background-color: rgb(255, 208, 0);
+        height: 30em;
+
+    }
+    .startbutton{
+
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 2em;
+        padding: 0.75em 3em;
+        font-size: 1.3em;
+        font-family: Main2;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s ease, outline 0.1s ease,color 0.2s ease,scale 0.1s ease;
+    }
+    .startbutton:hover{
+
+        background-color: white;
+        color: black;
+        outline: solid 0.1em black;
+        scale: 1.05;
+    }
+    .startbutton:active{
+
+        scale: 0.9;
+    }
+    .starth1{
+
+        font-family: Main2;
+        font-weight: bold;
+        font-size: 2.5em;
+        
+    }
+    .startp{
+
+        font-family: Main2;
+        font-size: 1.5em;
+        margin-bottom: 1em;
+        padding: 0 2em;
+
+    }
+    .arrowcounter{
+
+        width: 1.5em;
+        background-color: transparent;
+        color: white;
+        padding: 0.75em;
+        border: solid 0.05em rgb(167, 167, 167);
+        border-radius: 100%;
+        cursor: pointer;
+        transition:  outline 0.1s ease,color 0.2s ease,scale 0.1s ease;
+    }
+    .arrowcounter:hover{
+
+        color: black;
+        outline: solid 0.05em black;
+        scale: 1.05;
+
+    }
+    .leftconisidediv{
+
+        display:grid;
+        margin-top: 2em;
+        grid-template-columns: 35% 10%;
+        margin-bottom: 5em;
+        align-items: center;
+        gap: 1em;
+        justify-content: center;
+        
+    }
+    .arrowcounter:active{
+
+        scale: 0.9;
+    }
+    .leftconbutton{
+
+        background-color: transparent;
+        color: black;
+        padding: 0.75em 3em;
+        border: solid 0.05em rgb(167, 167, 167);
+        border-radius: 2em;
+        font-family: Main2;
+        font-size: 1.1em;
+        font-weight: bold;
+        cursor: pointer;
+        transition:  outline 0.1s ease,color 0.2s ease,scale 0.1s ease;
+
+    }
+    .leftconbutton:hover{
+
+        
+        color: black;
+        outline: solid 0.05em black;
+        scale: 1.05;
+
+    }
+    .leftconbutton:active{
+
+        scale: 0.9;
+
+    }
+    .center{
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+    .popupcon{
+
+        display: none;
+        position: fixed;
+        z-index: 9;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+    .rightconp3{
+
+        font-family: Main2;
+        text-align: center;
+        font-size: 1em;
+
+    }
+    .popupcon1{
+
+        display: none;
+        position: fixed;
+        z-index: 9;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+    .popupcon3{
+
+        display: none;
+        position: absolute;
+        z-index: 9;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+
+    .block{
+
+        display: block;
+    }
+    .bgpopup3{
+
+        background-color: rgb(0, 0, 0);
+        border-radius: 1em;
+        color: white;
+        padding: 1em 2em;
+        display: flex;
+    }
+    .bgpopup1{
+
+        background-color: rgb(250, 250, 250);
+        border-radius: 1em;
+        padding: 5em 7em;
+        border: 0.5em dashed rgb(255, 208, 0);
+    }
+    .bgpopup{
+
+        background-color: rgb(255, 208, 0);
+        border-radius: 1em;
+        padding: 10em 6em;
+        border: 0.5em dashed rgb(250, 250, 250);
+    }
+    .congrats{
+
+        font-family: Main2;
+        text-align: center;
+        margin-bottom: 0.5em;
+        font-size: 3em;
+    }
+    .triesleft{
+
+        font-family: Main2;
+        text-align: center;
+        font-size: 3em;
+
+    }
+    @keyframes fadedownAnimation {
+        0%{
+            opacity: 0;
+            scale: 0.85;
+            transform: translateY(-90px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+            scale: 1;
+        }
+    }
+    @keyframes fadeupAnimation {
+        0%{
+            opacity: 0;
+            scale: 0.85;
+            transform: translateY(90px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+            scale: 1;
+        }
+    }
+    .madeby,.soclogo,.inputtype,.hex,.rightconp,.wordsfoundp,.leftconbutton,
+    .arrowcounter,.congrats{
+
+        animation:  fadedownAnimation 1s ease;
+    }
+    .startp,.starth1,.startbutton,.top_logo,.top_header,#dateid,.rightconp1{
+
+        animation: fadeupAnimation 0.7s ease;;
+    }
+}   
+@media only screen and (min-width: 600px){
+    .maincon{
+
+
+        grid-template-columns: 65%;
+
+    }
+}
+@media only screen and (min-width: 850px){
+    .maincon{
+
+
+        grid-template-columns: 55%;
+
+    }
+}
+@media only screen and (min-width: 1100px){
+    .maincon{
+
+
+        grid-template-columns: 50%;
+
+    }
+}
+@media only screen and (min-width: 1150px){
+    .maincon{
+
+
+        grid-template-columns: 40%;
+
+    }
+}
+@media only screen and (min-width: 1400px){
+
+    .popupcon1{
+
+        display: none;
+        position: absolute;
+        z-index: 9;
+        top: 52%;
+        left: 75%;
+        transform: translate(-50%,-50%);
+
+    }
+    .popupcon3{
+
+
+        left: 28%;
+
+    }
+    .maincon{
+
+        justify-content: center;
+        display: none;
+        margin-top: 4em;
+        grid-template-columns: 45% 35%;
+        gap: 10em;
+        margin-bottom: 4em;
+
+    }
+    .leftcon{
+        margin-top: 3em;
+        display:grid;
+        justify-content: center;
+        grid-template-rows: 30% 5%;
+    }
+    .startingscreen{
+
+        background-color: rgb(255, 208, 0);
+        height: 40em;
+
+    }
+    .starth1{
+
+        font-family: Main2;
+        font-weight: bold;
+        font-size: 3em;
+        
+    }
+    .startp{
+
+        font-family: Main2;
+        font-size: 2em;
+        margin-bottom: 1em;
+
+    }
+    .hexcon{
+
+        display: grid;
+        grid-template-columns: 15%15%15%15%15%15%15%;
+    }
+
+    .leftconisidediv{
+
+        display:flex;
+        align-items: center;
+        gap: 1em;
+        justify-content: center;
+        
+    }
+    .bgpopup1{
+
+        padding: 5em 4em;
+    }
+
+
+}

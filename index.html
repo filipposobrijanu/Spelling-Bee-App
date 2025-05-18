@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Wordle">
+    <meta name="author" content="Filippos Obrijanu">
+    <link rel="icon" type="image/x-icon" href="assets/icons/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling Bee</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body onload="randomLetters()">
+    
+    <div class="centerdiv">
+        <a href="index.html">
+        <img class="top_logo" src="assets/icons/logo.png" alt="Logo">
+        </a>
+    </div>
+    <div class="conheader">
+        <h1 class="top_header">Spelling Bee</h1>
+        <p id="datepid" class="datep"></p>
+    </div>
+    <hr class="hrline">
+
+    <div id="startingscreen" class="startingscreen">
+        <div class="center">
+            <h1 class="starth1">Welcome!</h1>
+            <p class="startp">How many 7 letter words can you make?</p>
+            <button class="startbutton" onclick="ShowMain()">Play</button>
+        </div>
+
+    </div>
+
+    <div id="maincon" class="maincon">
+        
+        <div class="leftcon">
+
+            <input oninput="UpperLetters()" id="inputt" placeholder="Click here to type" class="inputtype" type="text">
+            <div class="hexcon">
+                <div class="hex"><span class="insideofhex">D</span></div>
+                <div class="hex"><span class="insideofhex">D</span></div>
+                <div class="hex"><span class="insideofhex">D</span></div>
+                <div class="hex"><span class="insideofhex">D</span></div>
+                <div class="hex"><span class="insideofhex">D</span></div>
+                <div class="hex"><span class="insideofhex">D</span></div>
+                <div class="hex"><span class="insideofhex">D</span></div>
+            </div>
+            <div class="leftconisidediv">
+                <button id="backbut" onclick="DeleteOneLetter()" class="leftconbutton">Delete</button>
+                <img onclick="randomLetters()" class="arrowcounter" src="assets/icons/arrow-clockwise.svg">
+                <button id="enterbut" onclick="Check()" class="leftconbutton">Enter</button>
+            </div>
+            
+        </div>
+        
+        <div class="rightcon">
+
+            <p id="rightconp" class="rightconp">You have found 0 words.</p>
+            <p id="wordsfoundp" class="wordsfoundp"></p>
+            <p class="rightconp1">* Each letter used gives +1 point *</p>
+        </div>
+    </div>
+    <div class="popupcon3">
+        <div class="bgpopup3">
+                <p id="rightconp3" class="rightconp3">Too short</p>
+        </div>
+    </div>
+    
+    <div class="popupcon1">
+        <div class="bgpopup1">
+            <div>
+                <h1 id="triesleft" class="triesleft">10</h1>
+                <p id="rightconp2" class="rightconp2">tries left.</p>
+            </div>
+        </div>
+    </div> 
+
+
+
+
+    <div class="popupcon">
+        <div class="bgpopup">
+            <div>
+                <h1 class="congrats">Congrats!</h1>
+                <p id="rightconp1" class="rightconp">You got 0 points.</p>
+                <button onclick="PlayAgain()" class="startbutton">Play Again</button>
+            </div>
+        </div>
+    </div>  
+
+    <hr class="hrline">
+
+    <p class="madeby">Made by Filippos Obrijanu</p>
+
+    <div class="socials">
+        <a href="#"><img class="soclogo" src="assets/icons/github.svg" alt="GitHub"></a>
+        <a href="#"><img class="soclogo" src="assets/icons/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img class="soclogo" src="assets/icons/youtube.svg" alt="YouTube"></a>
+        <a href="#"><img class="soclogo" src="assets/icons/twitter-x.svg" alt="Twitter"></a>
+    </div>
+   
+    <script src="features/main.js"></script>
+</body>
+</html>
