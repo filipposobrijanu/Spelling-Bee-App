@@ -1,7 +1,7 @@
 
 # 🐝 Spelling Bee App
 
-A web-based spelling bee app, where you test your skills to find out if you are good at spelling. Words are selected from a json file that includes almost every single word in the english dictionary.
+Spelling Bee App is an interactive **web-based application** designed to challenge and improve users' spelling proficiency through a dynamic, gamified experience. The app presents carefully selected words from an **extensive JSON database** containing nearly every word in the English dictionary, ensuring a diverse and comprehensive vocabulary range. Users are prompted to spell words aloud or type them correctly, receiving instant feedback on their accuracy.
 
 ---
 
