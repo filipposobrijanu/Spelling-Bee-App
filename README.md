@@ -3,6 +3,7 @@
 
 Spelling Bee App is an interactive **web-based application** designed to challenge and improve users' spelling proficiency through a dynamic, gamified experience. The app presents carefully selected words from an **extensive JSON database** containing nearly every word in the English dictionary, ensuring a diverse and comprehensive vocabulary range. Users are prompted to spell words aloud or type them correctly, receiving instant feedback on their accuracy.
 
+![screenshot](Images/1.PNG)
 ---
 
 ## 🛠️ Technologies Used
@@ -11,6 +12,7 @@ Spelling Bee App is an interactive **web-based application** designed to challen
 - **Bootstrap 5** for responsive UI
 - **VS Code** (development IDE)
 
+![screenshot](Images/2.PNG)
 ---
 
 ## 📄 License
