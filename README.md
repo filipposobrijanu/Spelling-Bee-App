@@ -1,32 +1,35 @@
+# Spelling Bee App
 
-# 🐝 Spelling Bee App
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-success?style=for-the-badge)](https://spelling-bee-appp.netlify.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Spelling Bee App is an interactive **web-based application** designed to challenge and improve users' spelling proficiency through a dynamic, gamified experience. The app presents carefully selected words from an **extensive JSON database** containing nearly every word in the English dictionary, ensuring a diverse and comprehensive vocabulary range. Users are prompted to spell words aloud or type them correctly, receiving instant feedback on their accuracy.
+An interactive, gamified web application designed to challenge and improve spelling proficiency. The app pulls from an extensive local JSON database of the English dictionary to provide a diverse and comprehensive vocabulary testing experience.
 
-![screenshot](Images/1.PNG)
----
+![Spelling Bee App Screenshot](Images/1.PNG)
 
-## 🛠️ Technologies Used
+## ✨ Core Features
 
-- **HTML5, CSS3, JavaScript**
-- **Bootstrap 5** for responsive UI
-- **VS Code** (development IDE)
+*   **Gamified Learning:** Tests users on their spelling accuracy with immediate, real-time feedback.
+*   **Massive Vocabulary Database:** Parses a comprehensive JSON dictionary to dynamically generate random spelling challenges.
+*   **Input Flexibility:** Prompts users to spell words aloud or type them directly into the interface.
+*   **Responsive UI:** Fully optimized for desktops and mobile devices using Bootstrap 5.
 
-![screenshot](Images/2.PNG)
----
+## 🛠️ Built With
 
-## 📄 License
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5" />
+  <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white" alt="JSON" />
+</p>
 
-This project is open-source.
+![Secondary App View](Images/2.PNG)
 
----
+## 🚀 Getting Started (Local Development)
 
-## 🤝 Contributing
+To run this project locally on your machine, follow these steps:
 
-Pull requests are welcome! Please follow standard GitHub flow and keep the code clean and documented.
-
----
-
-## 📬 Contact
-
-For questions, contact me at [obrizanou@gmail.com](mailto:obrizanou@gmail.com) or open an issue.
+1. **Clone the repository:**
+```bash
+   git clone [https://github.com/filipposobrijanu/Spelling-Bee-App.git](https://github.com/filipposobrijanu/Spelling-Bee-App.git)
