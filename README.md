@@ -27,17 +27,23 @@
 
 ### 🛠️ Tech Stack
 
-**Client Application Architecture**
+**Client Application Architecture & Core Logic**
 <p align="left">
   <img src="https://img.shields.io/badge/JavaScript_ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
 </p>
 
-**Presentation & Data Serialization**
+**Design Layout & Interface Primitives**
 <p align="left">
   <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JSON_Storage-000000?style=for-the-badge&logo=json&logoColor=white" alt="JSON" />
+</p>
+
+**Data Ingestion & Audio Web Subsystems**
+<p align="left">
+  <img src="https://img.shields.io/badge/JSON_Serialization-000000?style=for-the-badge&logo=json&logoColor=white" alt="JSON Data Storage" />
+  <img src="https://img.shields.io/badge/Asynchronous_Fetch-000000?style=for-the-badge" alt="Data Fetching" />
+  <img src="https://img.shields.io/badge/Web_Speech_/_Audio_API-000000?style=for-the-badge" alt="Audio Pipelines" />
 </p>
 
 ---
