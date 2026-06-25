@@ -16,16 +16,15 @@
 
 ---
 
-### ✨ Core Features
+### Core Features
 
 * **Gamified Pedagogical Engine:** Delivers real-time orthographic validation, providing instantaneous feedback loops that encourage retention and improve spelling mastery.
-* **High-Volume JSON Data Parsers:** Architecture designed to handle and traverse large-scale dictionary datasets, enabling dynamic, randomized challenge generation without backend latency.
-* **Multi-Modal Input Interface:** Flexible input validation system, supporting both manual keyboard entry and phonetic-to-text input flows.
+* **JSON Data Parsers:** Architecture designed to handle and traverse large-scale dictionary datasets, enabling dynamic, randomized challenge generation without backend latency.
 * **Adaptive Viewport & UI/UX:** Fully optimized for cross-device consistency using Bootstrap 5, focusing on accessible interface components and user-centered interaction design.
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 **Client Application Architecture & Core Logic**
 <p align="left">
@@ -48,7 +47,7 @@
 
 ---
 
-### 📸 Application Showcase
+### Application Showcase
 
 <p align="center">
   <img src="Images/1.PNG" width="48%" />
@@ -57,7 +56,7 @@
 
 ---
 
-### 🚀 Getting Started (Local Development)
+### Getting Started (Local Development)
 
 **1. Clone the repository:**
 ```bash
