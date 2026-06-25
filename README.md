@@ -19,7 +19,6 @@
 ### Core Features
 
 * **Gamified Pedagogical Engine:** Delivers real-time orthographic validation, providing instantaneous feedback loops that encourage retention and improve spelling mastery.
-* **JSON Data Parsers:** Architecture designed to handle and traverse large-scale dictionary datasets, enabling dynamic, randomized challenge generation without backend latency.
 * **Adaptive Viewport & UI/UX:** Fully optimized for cross-device consistency using Bootstrap 5, focusing on accessible interface components and user-centered interaction design.
 
 ---
